@@ -59,11 +59,14 @@ const destroy = async (req, res, next) => {
 
 const index = async (req, res, next) => {
   try {
-    let category = await Categories.find();
-    return res.json(category);
+    let categories = await Categories.find();
+    return res.json({
+      status: "success",
+      data: categories,
+    });
   } catch (err) {
     if (err && err.name === "ValidationError") {
-      return res.json({
+      return res.status(400).json({
         error: 1,
         message: err.message,
         fields: err.errors,

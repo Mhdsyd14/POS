@@ -32,6 +32,12 @@ const CustomNavbar = ({ onSearch, user }) => {
 
   const navigate = useNavigate();
 
+  const handleLogout = () => {
+    localStorage.removeItem("token");
+    navigate("/login");
+    window.location.reload();
+  };
+
   return (
     <div className="container-fluid bg-dark-subtle text-primary-emphasis">
       <Navbar className="container" expand="lg">
@@ -72,14 +78,7 @@ const CustomNavbar = ({ onSearch, user }) => {
                   <Dropdown.Item onClick={() => navigate("/profile")}>
                     Profile
                   </Dropdown.Item>
-                  <Dropdown.Item
-                    onClick={() => {
-                      localStorage.removeItem("token");
-                      navigate("/login");
-                    }}
-                  >
-                    Logout
-                  </Dropdown.Item>
+                  <Dropdown.Item onClick={handleLogout}>Logout</Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
             ) : (

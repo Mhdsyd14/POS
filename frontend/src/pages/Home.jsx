@@ -8,6 +8,7 @@ import { FaArrowDownWideShort } from "react-icons/fa6";
 import { MdRestaurantMenu } from "react-icons/md";
 import fetchData from "../utils/fetch";
 import { jwtDecode } from "jwt-decode";
+import Pagination from "react-bootstrap/Pagination";
 
 export default function Home() {
   const [activeTag, setActiveTag] = useState(null);
@@ -17,6 +18,8 @@ export default function Home() {
   const [categories, setCategories] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
   const [user, setUser] = useState(null);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [productsPerPage] = useState(6); // Jumlah produk per halaman
 
   useEffect(() => {
     const token = localStorage.getItem("token");
@@ -26,76 +29,66 @@ export default function Home() {
     }
   }, []);
 
+  useEffect(() => {
+    const fetchDataFromAPI = async () => {
+      try {
+        // Fetch products
+        const productsResponse = await fetchData(
+          "http://localhost:3000/api/products"
+        );
+        setProducts(productsResponse.data.data);
+
+        // Fetch tags
+        const tagsResponse = await fetchData("http://localhost:3000/api/tags");
+        setTags(tagsResponse.data);
+
+        // Fetch categories
+        const categoriesResponse = await fetchData(
+          "http://localhost:3000/api/categories"
+        );
+        setCategories(categoriesResponse.data.data);
+      } catch (error) {
+        console.log("Error fetching data:", error);
+      }
+    };
+
+    fetchDataFromAPI();
+  }, []);
+
   const handleTagClick = (tag) => {
     setActiveTag(tag === activeTag ? null : tag);
   };
 
-  const handleCategoryChange = (category) => {
+  const handleCategoryChange = async (category) => {
     setActiveCategory(category);
-    // Update tags based on selected category
+    setActiveTag(null); // Reset active tag when category changes
+
+    // Filter tags berdasarkan kategori yang dipilih
     if (category) {
       const selectedCategoryTags = products
         .filter((product) => product.category._id === category)
         .reduce((acc, curr) => {
           curr.tags.forEach((tag) => {
-            if (!acc.includes(tag.name)) {
-              acc.push(tag.name);
+            if (!acc.some((t) => t._id === tag._id)) {
+              acc.push({ _id: tag._id, name: tag.name });
             }
           });
           return acc;
         }, []);
       setTags(selectedCategoryTags);
     } else {
-      // Reset tags to show all tags when "Semua Kategori" is selected
-      const allTags = products.reduce((acc, curr) => {
-        curr.tags.forEach((tag) => {
-          if (!acc.includes(tag.name)) {
-            acc.push(tag.name);
-          }
-        });
-        return acc;
-      }, []);
-      setTags(allTags);
+      const tagsResponse = await fetchData("http://localhost:3000/api/tags");
+      const tagsWithData = tagsResponse.data.map((tag) => ({
+        _id: tag._id,
+        name: tag.name,
+      }));
+      setTags(tagsWithData);
     }
-    setActiveTag(null); // Reset active tag when category changes
   };
 
   const handleSearch = (query) => {
     setSearchQuery(query);
   };
-
-  useEffect(() => {
-    const fetchProducts = async () => {
-      try {
-        const response = await fetchData("http://localhost:3000/api/products");
-        console.log(response.data.data);
-        setProducts(response.data.data);
-
-        const extractedTags = response.data.data.reduce((acc, curr) => {
-          curr.tags.forEach((tag) => {
-            if (!acc.includes(tag.name)) {
-              acc.push(tag.name);
-            }
-          });
-          return acc;
-        }, []);
-        setTags(extractedTags);
-
-        const extractedCategories = response.data.data.map(
-          (product) => product.category
-        );
-        const uniqueCategories = Array.from(
-          new Set(extractedCategories.map((cat) => cat._id))
-        ).map((id) => extractedCategories.find((cat) => cat._id === id));
-
-        setCategories(uniqueCategories);
-      } catch (error) {
-        console.log(error);
-      }
-    };
-
-    fetchProducts();
-  }, []);
 
   // Filter produk berdasarkan kategori, tag, dan pencarian
   const filteredProducts = products.filter((product) => {
@@ -111,7 +104,19 @@ export default function Home() {
     return matchesCategory && matchesTag && matchesSearch;
   });
 
-  console.log(user);
+  // Menghitung indeks produk yang akan ditampilkan di halaman saat ini
+  const indexOfLastProduct = currentPage * productsPerPage;
+  const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
+  const currentProducts = filteredProducts.slice(
+    indexOfFirstProduct,
+    indexOfLastProduct
+  );
+
+  // Mengubah halaman
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+  };
+
   return (
     <>
       <CustomNavbar onSearch={handleSearch} user={user} />
@@ -125,20 +130,50 @@ export default function Home() {
         </h5>
         <div>
           <Stack direction="horizontal" gap={3}>
-            {tags.map((tag) => (
-              <Button
-                key={tag}
-                variant={activeTag === tag ? "primary" : "secondary"}
-                onClick={() => handleTagClick(tag)}
-              >
-                <MdRestaurantMenu />
-                {tag}
-              </Button>
-            ))}
+            {Array.isArray(tags) &&
+              tags.map((tag) => (
+                <Button
+                  key={tag._id} // Gunakan _id sebagai key, pastikan unik
+                  variant={activeTag === tag.name ? "primary" : "secondary"}
+                  onClick={() => handleTagClick(tag.name)}
+                >
+                  <MdRestaurantMenu />
+                  {tag.name}
+                </Button>
+              ))}
           </Stack>
         </div>
       </div>
-      <ProductCard products={filteredProducts} />
+      <div className="container mt-3">
+        <h5>Products</h5>
+        <ProductCard products={currentProducts} />
+        <Pagination className="mt-3">
+          <Pagination.Prev
+            onClick={() => handlePageChange(currentPage - 1)}
+            disabled={currentPage === 1}
+          />
+          {[
+            ...Array(
+              Math.ceil(filteredProducts.length / productsPerPage)
+            ).keys(),
+          ].map((page) => (
+            <Pagination.Item
+              key={page + 1}
+              active={page + 1 === currentPage}
+              onClick={() => handlePageChange(page + 1)}
+            >
+              {page + 1}
+            </Pagination.Item>
+          ))}
+          <Pagination.Next
+            onClick={() => handlePageChange(currentPage + 1)}
+            disabled={
+              currentPage ===
+              Math.ceil(filteredProducts.length / productsPerPage)
+            }
+          />
+        </Pagination>
+      </div>
     </>
   );
 }
