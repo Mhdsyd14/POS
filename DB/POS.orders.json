@@ -1,0 +1,555 @@
+[{
+  "_id": {
+    "$oid": "66742df7646dabb9cd2a2623"
+  },
+  "status": "waiting_payment",
+  "delivery_fee": 25000,
+  "delivery_address": {
+    "provinsi": "DKI JAKARTA",
+    "kabupaten": "KABUPATEN KEPULAUAN SERIBU",
+    "kecamatan": "KEPULAUAN SERIBU SELATAN",
+    "kelurahan": "PULAU UNTUNG JAWA",
+    "detail": "Jl.mampang prapatan 5"
+  },
+  "user": {
+    "$oid": "666bad7caeef1b7856d82505"
+  },
+  "order_items": [
+    {
+      "$oid": "66742df7646dabb9cd2a2625"
+    },
+    {
+      "$oid": "66742df7646dabb9cd2a2626"
+    },
+    {
+      "$oid": "66742df7646dabb9cd2a2627"
+    },
+    {
+      "$oid": "66742df7646dabb9cd2a2628"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-20T13:26:15.277Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-20T13:26:15.277Z"
+  },
+  "order_number": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66743b2eb1761135a998ae11"
+  },
+  "status": "waiting_payment",
+  "delivery_fee": 25000,
+  "delivery_address": {
+    "provinsi": "DKI JAKARTA",
+    "kabupaten": "KABUPATEN KEPULAUAN SERIBU",
+    "kecamatan": "KEPULAUAN SERIBU SELATAN",
+    "kelurahan": "PULAU UNTUNG JAWA",
+    "detail": "jl.kaliabang"
+  },
+  "user": {
+    "$oid": "666bad7caeef1b7856d82505"
+  },
+  "order_items": [
+    {
+      "$oid": "66743b2eb1761135a998ae13"
+    },
+    {
+      "$oid": "66743b2eb1761135a998ae14"
+    },
+    {
+      "$oid": "66743b2eb1761135a998ae15"
+    },
+    {
+      "$oid": "66743b2eb1761135a998ae16"
+    },
+    {
+      "$oid": "66743b2eb1761135a998ae17"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-20T14:22:38.735Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-20T14:22:38.735Z"
+  },
+  "order_number": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66744076913a693c55780b1f"
+  },
+  "status": "waiting_payment",
+  "delivery_fee": 25000,
+  "delivery_address": {
+    "provinsi": "DKI JAKARTA",
+    "kabupaten": "KOTA JAKARTA SELATAN",
+    "kecamatan": "MAMPANG PRAPATAN",
+    "kelurahan": "MAMPANG PRAPATAN",
+    "detail": "Jl.bangka 7"
+  },
+  "user": {
+    "$oid": "666bad7caeef1b7856d82505"
+  },
+  "order_items": [
+    {
+      "$oid": "66744076913a693c55780b21"
+    },
+    {
+      "$oid": "66744076913a693c55780b22"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-20T14:45:10.129Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-20T14:45:10.129Z"
+  },
+  "order_number": 7,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674de12ff9b8a99e04c4ec6"
+  },
+  "status": "waiting_payment",
+  "delivery_fee": 25000,
+  "delivery_address": {
+    "provinsi": "DKI JAKARTA",
+    "kabupaten": "KOTA JAKARTA SELATAN",
+    "kecamatan": "MAMPANG PRAPATAN",
+    "kelurahan": "KUNINGAN BARAT",
+    "detail": "Jl.bangka raya 7"
+  },
+  "user": {
+    "$oid": "667440a7913a693c55780b65"
+  },
+  "order_items": [
+    {
+      "$oid": "6674de12ff9b8a99e04c4ec8"
+    },
+    {
+      "$oid": "6674de12ff9b8a99e04c4ec9"
+    },
+    {
+      "$oid": "6674de12ff9b8a99e04c4eca"
+    },
+    {
+      "$oid": "6674de12ff9b8a99e04c4ecb"
+    },
+    {
+      "$oid": "6674de12ff9b8a99e04c4ecc"
+    },
+    {
+      "$oid": "6674de12ff9b8a99e04c4ecd"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-21T01:57:39.015Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-21T01:57:39.015Z"
+  },
+  "order_number": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674dec7ff9b8a99e04c4fe9"
+  },
+  "status": "waiting_payment",
+  "delivery_fee": 25000,
+  "delivery_address": {
+    "provinsi": "DKI JAKARTA",
+    "kabupaten": "KOTA JAKARTA SELATAN",
+    "kecamatan": "MAMPANG PRAPATAN",
+    "kelurahan": "KUNINGAN BARAT",
+    "detail": "Jl.mampang prapatan 5"
+  },
+  "user": {
+    "$oid": "6674de85ff9b8a99e04c4f67"
+  },
+  "order_items": [
+    {
+      "$oid": "6674dec7ff9b8a99e04c4feb"
+    },
+    {
+      "$oid": "6674dec7ff9b8a99e04c4fec"
+    },
+    {
+      "$oid": "6674dec7ff9b8a99e04c4fed"
+    },
+    {
+      "$oid": "6674dec7ff9b8a99e04c4fee"
+    },
+    {
+      "$oid": "6674dec7ff9b8a99e04c4fef"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-21T02:00:39.824Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-21T02:00:39.824Z"
+  },
+  "order_number": 9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674df89ff9b8a99e04c50c3"
+  },
+  "status": "waiting_payment",
+  "delivery_fee": 25000,
+  "delivery_address": {
+    "provinsi": "DKI JAKARTA",
+    "kabupaten": "KABUPATEN KEPULAUAN SERIBU",
+    "kecamatan": "KEPULAUAN SERIBU SELATAN",
+    "kelurahan": "PULAU UNTUNG JAWA",
+    "detail": "Jl.mampang prapatan 5"
+  },
+  "user": {
+    "$oid": "6674df20ff9b8a99e04c5021"
+  },
+  "order_items": [
+    {
+      "$oid": "6674df89ff9b8a99e04c50c5"
+    },
+    {
+      "$oid": "6674df89ff9b8a99e04c50c6"
+    },
+    {
+      "$oid": "6674df89ff9b8a99e04c50c7"
+    },
+    {
+      "$oid": "6674df89ff9b8a99e04c50c8"
+    },
+    {
+      "$oid": "6674df89ff9b8a99e04c50c9"
+    },
+    {
+      "$oid": "6674df89ff9b8a99e04c50ca"
+    },
+    {
+      "$oid": "6674df89ff9b8a99e04c50cb"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-21T02:03:53.744Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-21T02:03:53.744Z"
+  },
+  "order_number": 10,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667595308de652dd535173e1"
+  },
+  "status": "waiting_payment",
+  "delivery_fee": 25000,
+  "delivery_address": {
+    "provinsi": "DKI JAKARTA",
+    "kabupaten": "KOTA JAKARTA SELATAN",
+    "kecamatan": "MAMPANG PRAPATAN",
+    "kelurahan": "MAMPANG PRAPATAN",
+    "detail": "Jl.bangka 7"
+  },
+  "user": {
+    "$oid": "666bad7caeef1b7856d82505"
+  },
+  "order_items": [
+    {
+      "$oid": "667595308de652dd535173e3"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-21T14:58:56.897Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-21T14:58:56.897Z"
+  },
+  "order_number": 11,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6675b98762ddb8f95f31b68d"
+  },
+  "status": "waiting_payment",
+  "delivery_fee": 25000,
+  "delivery_address": {
+    "provinsi": "DKI JAKARTA",
+    "kabupaten": "KOTA JAKARTA SELATAN",
+    "kecamatan": "MAMPANG PRAPATAN",
+    "kelurahan": "MAMPANG PRAPATAN",
+    "detail": "Jl.bangka 7"
+  },
+  "user": {
+    "$oid": "666bad7caeef1b7856d82505"
+  },
+  "order_items": [
+    {
+      "$oid": "6675b98762ddb8f95f31b68f"
+    },
+    {
+      "$oid": "6675b98762ddb8f95f31b690"
+    },
+    {
+      "$oid": "6675b98762ddb8f95f31b691"
+    },
+    {
+      "$oid": "6675b98762ddb8f95f31b692"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-21T17:33:59.122Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-21T17:33:59.122Z"
+  },
+  "order_number": 12,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6676200af41ff2f2ae463bef"
+  },
+  "status": "waiting_payment",
+  "delivery_fee": 25000,
+  "delivery_address": {
+    "provinsi": "DKI JAKARTA",
+    "kabupaten": "KABUPATEN KEPULAUAN SERIBU",
+    "kecamatan": "KEPULAUAN SERIBU SELATAN",
+    "kelurahan": "PULAU UNTUNG JAWA",
+    "detail": "Jl.mampang prapatan 5"
+  },
+  "user": {
+    "$oid": "666bad7caeef1b7856d82505"
+  },
+  "order_items": [
+    {
+      "$oid": "6676200af41ff2f2ae463bf1"
+    },
+    {
+      "$oid": "6676200af41ff2f2ae463bf2"
+    },
+    {
+      "$oid": "6676200af41ff2f2ae463bf3"
+    },
+    {
+      "$oid": "6676200af41ff2f2ae463bf4"
+    },
+    {
+      "$oid": "6676200af41ff2f2ae463bf5"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-22T00:51:22.211Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-22T00:51:22.211Z"
+  },
+  "order_number": 13,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66762718f8dedbd1203e5284"
+  },
+  "status": "waiting_payment",
+  "delivery_fee": 25000,
+  "delivery_address": {
+    "provinsi": "DKI JAKARTA",
+    "kabupaten": "KOTA JAKARTA SELATAN",
+    "kecamatan": "MAMPANG PRAPATAN",
+    "kelurahan": "KUNINGAN BARAT",
+    "detail": "Jl.bangka raya 7"
+  },
+  "user": {
+    "$oid": "667440a7913a693c55780b65"
+  },
+  "order_items": [
+    {
+      "$oid": "66762718f8dedbd1203e5286"
+    },
+    {
+      "$oid": "66762718f8dedbd1203e5287"
+    },
+    {
+      "$oid": "66762718f8dedbd1203e5288"
+    },
+    {
+      "$oid": "66762718f8dedbd1203e5289"
+    },
+    {
+      "$oid": "66762718f8dedbd1203e528a"
+    },
+    {
+      "$oid": "66762718f8dedbd1203e528b"
+    },
+    {
+      "$oid": "66762718f8dedbd1203e528c"
+    },
+    {
+      "$oid": "66762718f8dedbd1203e528d"
+    },
+    {
+      "$oid": "66762718f8dedbd1203e528e"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-22T01:21:28.243Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-22T01:21:28.243Z"
+  },
+  "order_number": 14,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66762758f8dedbd1203e5385"
+  },
+  "status": "waiting_payment",
+  "delivery_fee": 25000,
+  "delivery_address": {
+    "provinsi": "NUSA TENGGARA BARAT",
+    "kabupaten": "KABUPATEN DOMPU",
+    "kecamatan": "KEMPO",
+    "kelurahan": "PERSIAPAN SORO BARAT",
+    "detail": "Jl.mampang prapatan 5"
+  },
+  "user": {
+    "$oid": "667440a7913a693c55780b65"
+  },
+  "order_items": [
+    {
+      "$oid": "66762758f8dedbd1203e5387"
+    },
+    {
+      "$oid": "66762758f8dedbd1203e5388"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-22T01:22:32.957Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-22T01:22:32.957Z"
+  },
+  "order_number": 15,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6676276df8dedbd1203e5414"
+  },
+  "status": "waiting_payment",
+  "delivery_fee": 25000,
+  "delivery_address": {
+    "provinsi": "NUSA TENGGARA BARAT",
+    "kabupaten": "KABUPATEN DOMPU",
+    "kecamatan": "KEMPO",
+    "kelurahan": "PERSIAPAN SORO BARAT",
+    "detail": "Jl.mampang prapatan 5"
+  },
+  "user": {
+    "$oid": "667440a7913a693c55780b65"
+  },
+  "order_items": [
+    {
+      "$oid": "6676276df8dedbd1203e5416"
+    },
+    {
+      "$oid": "6676276df8dedbd1203e5417"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-22T01:22:53.134Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-22T01:22:53.134Z"
+  },
+  "order_number": 16,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667629071cfcc44d4972aab3"
+  },
+  "status": "waiting_payment",
+  "delivery_fee": 25000,
+  "delivery_address": {
+    "provinsi": "NUSA TENGGARA BARAT",
+    "kabupaten": "KABUPATEN DOMPU",
+    "kecamatan": "KEMPO",
+    "kelurahan": "PERSIAPAN SORO BARAT",
+    "detail": "Jl.mampang prapatan 5"
+  },
+  "user": {
+    "$oid": "667440a7913a693c55780b65"
+  },
+  "order_items": [
+    {
+      "$oid": "667629071cfcc44d4972aab5"
+    },
+    {
+      "$oid": "667629071cfcc44d4972aab6"
+    },
+    {
+      "$oid": "667629071cfcc44d4972aab7"
+    },
+    {
+      "$oid": "667629071cfcc44d4972aab8"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-22T01:29:43.894Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-22T01:29:43.894Z"
+  },
+  "order_number": 17,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66762c331cfcc44d4972ae00"
+  },
+  "status": "waiting_payment",
+  "delivery_fee": 25000,
+  "delivery_address": {
+    "provinsi": "DKI JAKARTA",
+    "kabupaten": "KOTA JAKARTA SELATAN",
+    "kecamatan": "MAMPANG PRAPATAN",
+    "kelurahan": "MAMPANG PRAPATAN",
+    "detail": "Jl.bangka 7"
+  },
+  "user": {
+    "$oid": "666bad7caeef1b7856d82505"
+  },
+  "order_items": [
+    {
+      "$oid": "66762c331cfcc44d4972ae02"
+    },
+    {
+      "$oid": "66762c331cfcc44d4972ae03"
+    },
+    {
+      "$oid": "66762c331cfcc44d4972ae04"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-22T01:43:15.122Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-22T01:43:15.122Z"
+  },
+  "order_number": 18,
+  "__v": 0
+}]

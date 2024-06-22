@@ -1,0 +1,126 @@
+[{
+  "_id": {
+    "$oid": "666ff5f2503444225ec04ea6"
+  },
+  "name": "Muhammad irsyad",
+  "kelurahan": "PULAU UNTUNG JAWA",
+  "kecamatan": "KEPULAUAN SERIBU SELATAN",
+  "kabupaten": "KABUPATEN KEPULAUAN SERIBU",
+  "provinsi": "DKI JAKARTA",
+  "detail": "Jl.mampang prapatan 5",
+  "user": {
+    "$oid": "666bad7caeef1b7856d82505"
+  },
+  "createdAt": {
+    "$date": "2024-06-17T08:38:10.807Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-17T08:38:10.807Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66743c5cb1761135a998af47"
+  },
+  "name": "Muhammad Rizal",
+  "kelurahan": "MAMPANG PRAPATAN",
+  "kecamatan": "MAMPANG PRAPATAN",
+  "kabupaten": "KOTA JAKARTA SELATAN",
+  "provinsi": "DKI JAKARTA",
+  "detail": "Jl.bangka 7",
+  "user": {
+    "$oid": "666bad7caeef1b7856d82505"
+  },
+  "createdAt": {
+    "$date": "2024-06-20T14:27:40.016Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-20T14:27:40.016Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674dd9cff9b8a99e04c4df2"
+  },
+  "name": "Rizal",
+  "kelurahan": "KUNINGAN BARAT",
+  "kecamatan": "MAMPANG PRAPATAN",
+  "kabupaten": "KOTA JAKARTA SELATAN",
+  "provinsi": "DKI JAKARTA",
+  "detail": "Jl.bangka raya 7",
+  "user": {
+    "$oid": "667440a7913a693c55780b65"
+  },
+  "createdAt": {
+    "$date": "2024-06-21T01:55:40.228Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-21T01:55:40.228Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674deaaff9b8a99e04c4f8b"
+  },
+  "name": "Irsyad ganteng ",
+  "kelurahan": "KUNINGAN BARAT",
+  "kecamatan": "MAMPANG PRAPATAN",
+  "kabupaten": "KOTA JAKARTA SELATAN",
+  "provinsi": "DKI JAKARTA",
+  "detail": "Jl.mampang prapatan 5",
+  "user": {
+    "$oid": "6674de85ff9b8a99e04c4f67"
+  },
+  "createdAt": {
+    "$date": "2024-06-21T02:00:10.558Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-21T02:00:10.558Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674df62ff9b8a99e04c5045"
+  },
+  "name": "ganteng banget",
+  "kelurahan": "PULAU UNTUNG JAWA",
+  "kecamatan": "KEPULAUAN SERIBU SELATAN",
+  "kabupaten": "KABUPATEN KEPULAUAN SERIBU",
+  "provinsi": "DKI JAKARTA",
+  "detail": "Jl.mampang prapatan 5",
+  "user": {
+    "$oid": "6674df20ff9b8a99e04c5021"
+  },
+  "createdAt": {
+    "$date": "2024-06-21T02:03:14.532Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-21T02:03:14.532Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66762735f8dedbd1203e52c6"
+  },
+  "name": "Muhammad irsyad",
+  "kelurahan": "PERSIAPAN SORO BARAT",
+  "kecamatan": "KEMPO",
+  "kabupaten": "KABUPATEN DOMPU",
+  "provinsi": "NUSA TENGGARA BARAT",
+  "detail": "Jl.mampang prapatan 5",
+  "user": {
+    "$oid": "667440a7913a693c55780b65"
+  },
+  "createdAt": {
+    "$date": "2024-06-22T01:21:57.298Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-22T01:21:57.298Z"
+  },
+  "__v": 0
+}]

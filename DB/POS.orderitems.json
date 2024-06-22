@@ -1,0 +1,885 @@
+[{
+  "_id": {
+    "$oid": "66742df7646dabb9cd2a2625"
+  },
+  "name": "ayam rica rica",
+  "price": 25000,
+  "qty": 2,
+  "product": {
+    "$oid": "66685a7603b3b9b9c88eef65"
+  },
+  "order": {
+    "$oid": "66742df7646dabb9cd2a2623"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66742df7646dabb9cd2a2626"
+  },
+  "name": "ayam bakar",
+  "price": 15000,
+  "qty": 2,
+  "product": {
+    "$oid": "66685b1203b3b9b9c88eef7f"
+  },
+  "order": {
+    "$oid": "66742df7646dabb9cd2a2623"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66742df7646dabb9cd2a2627"
+  },
+  "name": "ayam penyet",
+  "price": 13000,
+  "qty": 2,
+  "product": {
+    "$oid": "66685c2203b3b9b9c88eef8c"
+  },
+  "order": {
+    "$oid": "66742df7646dabb9cd2a2623"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66742df7646dabb9cd2a2628"
+  },
+  "name": "ayam geprek",
+  "price": 11000,
+  "qty": 2,
+  "product": {
+    "$oid": "66685c6a03b3b9b9c88eef99"
+  },
+  "order": {
+    "$oid": "66742df7646dabb9cd2a2623"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66743b2eb1761135a998ae13"
+  },
+  "name": "ayam rica rica",
+  "price": 25000,
+  "qty": 1,
+  "product": {
+    "$oid": "66685a7603b3b9b9c88eef65"
+  },
+  "order": {
+    "$oid": "66743b2eb1761135a998ae11"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66743b2eb1761135a998ae14"
+  },
+  "name": "ayam bakar",
+  "price": 15000,
+  "qty": 1,
+  "product": {
+    "$oid": "66685b1203b3b9b9c88eef7f"
+  },
+  "order": {
+    "$oid": "66743b2eb1761135a998ae11"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66743b2eb1761135a998ae15"
+  },
+  "name": "ayam penyet",
+  "price": 13000,
+  "qty": 1,
+  "product": {
+    "$oid": "66685c2203b3b9b9c88eef8c"
+  },
+  "order": {
+    "$oid": "66743b2eb1761135a998ae11"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66743b2eb1761135a998ae16"
+  },
+  "name": "ayam geprek",
+  "price": 11000,
+  "qty": 1,
+  "product": {
+    "$oid": "66685c6a03b3b9b9c88eef99"
+  },
+  "order": {
+    "$oid": "66743b2eb1761135a998ae11"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66743b2eb1761135a998ae17"
+  },
+  "name": " teh manis panas",
+  "price": 5000,
+  "qty": 1,
+  "product": {
+    "$oid": "6669156a675a3de6d1d2cc8c"
+  },
+  "order": {
+    "$oid": "66743b2eb1761135a998ae11"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66744076913a693c55780b21"
+  },
+  "name": "ayam rica rica",
+  "price": 25000,
+  "qty": 2,
+  "product": {
+    "$oid": "66685a7603b3b9b9c88eef65"
+  },
+  "order": {
+    "$oid": "66744076913a693c55780b1f"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66744076913a693c55780b22"
+  },
+  "name": "kopi panas",
+  "price": 4000,
+  "qty": 2,
+  "product": {
+    "$oid": "666915f3675a3de6d1d2cc99"
+  },
+  "order": {
+    "$oid": "66744076913a693c55780b1f"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674de12ff9b8a99e04c4ec8"
+  },
+  "name": "roti coklat",
+  "price": 6000,
+  "qty": 1,
+  "product": {
+    "$oid": "6674dc1eff9b8a99e04c4d5f"
+  },
+  "order": {
+    "$oid": "6674de12ff9b8a99e04c4ec6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674de12ff9b8a99e04c4ec9"
+  },
+  "name": "roti bakar",
+  "price": 8000,
+  "qty": 1,
+  "product": {
+    "$oid": "6674dc7fff9b8a99e04c4d70"
+  },
+  "order": {
+    "$oid": "6674de12ff9b8a99e04c4ec6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674de12ff9b8a99e04c4eca"
+  },
+  "name": "es teh manis solo",
+  "price": 5000,
+  "qty": 1,
+  "product": {
+    "$oid": "6674d7416ea4dcd991e2d637"
+  },
+  "order": {
+    "$oid": "6674de12ff9b8a99e04c4ec6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674de12ff9b8a99e04c4ecb"
+  },
+  "name": "es kopi susu ",
+  "price": 13000,
+  "qty": 1,
+  "product": {
+    "$oid": "6674d6c86ea4dcd991e2d626"
+  },
+  "order": {
+    "$oid": "6674de12ff9b8a99e04c4ec6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674de12ff9b8a99e04c4ecc"
+  },
+  "name": "es jeruk",
+  "price": 4000,
+  "qty": 1,
+  "product": {
+    "$oid": "6674d900ff9b8a99e04c4cbb"
+  },
+  "order": {
+    "$oid": "6674de12ff9b8a99e04c4ec6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674de12ff9b8a99e04c4ecd"
+  },
+  "name": "es buah",
+  "price": 10000,
+  "qty": 1,
+  "product": {
+    "$oid": "6674d969ff9b8a99e04c4ccc"
+  },
+  "order": {
+    "$oid": "6674de12ff9b8a99e04c4ec6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674dec7ff9b8a99e04c4feb"
+  },
+  "name": "ayam bakar",
+  "price": 15000,
+  "qty": 2,
+  "product": {
+    "$oid": "66685b1203b3b9b9c88eef7f"
+  },
+  "order": {
+    "$oid": "6674dec7ff9b8a99e04c4fe9"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674dec7ff9b8a99e04c4fec"
+  },
+  "name": "ayam penyet",
+  "price": 13000,
+  "qty": 2,
+  "product": {
+    "$oid": "66685c2203b3b9b9c88eef8c"
+  },
+  "order": {
+    "$oid": "6674dec7ff9b8a99e04c4fe9"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674dec7ff9b8a99e04c4fed"
+  },
+  "name": "ayam geprek",
+  "price": 11000,
+  "qty": 2,
+  "product": {
+    "$oid": "66685c6a03b3b9b9c88eef99"
+  },
+  "order": {
+    "$oid": "6674dec7ff9b8a99e04c4fe9"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674dec7ff9b8a99e04c4fee"
+  },
+  "name": "Coklat panas",
+  "price": 6000,
+  "qty": 2,
+  "product": {
+    "$oid": "6674cdfe7c2793c4f292bbba"
+  },
+  "order": {
+    "$oid": "6674dec7ff9b8a99e04c4fe9"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674dec7ff9b8a99e04c4fef"
+  },
+  "name": "Ikan mas goreng ",
+  "price": 17000,
+  "qty": 2,
+  "product": {
+    "$oid": "6674cf6e7c2793c4f292bbc7"
+  },
+  "order": {
+    "$oid": "6674dec7ff9b8a99e04c4fe9"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674df89ff9b8a99e04c50c5"
+  },
+  "name": "ayam bakar",
+  "price": 15000,
+  "qty": 2,
+  "product": {
+    "$oid": "66685b1203b3b9b9c88eef7f"
+  },
+  "order": {
+    "$oid": "6674df89ff9b8a99e04c50c3"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674df89ff9b8a99e04c50c6"
+  },
+  "name": "ayam penyet",
+  "price": 13000,
+  "qty": 2,
+  "product": {
+    "$oid": "66685c2203b3b9b9c88eef8c"
+  },
+  "order": {
+    "$oid": "6674df89ff9b8a99e04c50c3"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674df89ff9b8a99e04c50c7"
+  },
+  "name": "ayam geprek",
+  "price": 11000,
+  "qty": 2,
+  "product": {
+    "$oid": "66685c6a03b3b9b9c88eef99"
+  },
+  "order": {
+    "$oid": "6674df89ff9b8a99e04c50c3"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674df89ff9b8a99e04c50c8"
+  },
+  "name": "roti bakar",
+  "price": 8000,
+  "qty": 1,
+  "product": {
+    "$oid": "6674dc7fff9b8a99e04c4d70"
+  },
+  "order": {
+    "$oid": "6674df89ff9b8a99e04c50c3"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674df89ff9b8a99e04c50c9"
+  },
+  "name": "es jeruk",
+  "price": 4000,
+  "qty": 1,
+  "product": {
+    "$oid": "6674d900ff9b8a99e04c4cbb"
+  },
+  "order": {
+    "$oid": "6674df89ff9b8a99e04c50c3"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674df89ff9b8a99e04c50ca"
+  },
+  "name": "Ikan lele",
+  "price": 11000,
+  "qty": 1,
+  "product": {
+    "$oid": "6674cee97c2793c4f292bbc2"
+  },
+  "order": {
+    "$oid": "6674df89ff9b8a99e04c50c3"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674df89ff9b8a99e04c50cb"
+  },
+  "name": "ikan mujair",
+  "price": 15000,
+  "qty": 1,
+  "product": {
+    "$oid": "6674d5767c2793c4f292bcaa"
+  },
+  "order": {
+    "$oid": "6674df89ff9b8a99e04c50c3"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667595308de652dd535173e3"
+  },
+  "name": "ayam geprek",
+  "price": 11000,
+  "qty": 1,
+  "product": {
+    "$oid": "66685c6a03b3b9b9c88eef99"
+  },
+  "order": {
+    "$oid": "667595308de652dd535173e1"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6675b98762ddb8f95f31b68f"
+  },
+  "name": "ayam penyet",
+  "price": 13000,
+  "qty": 1,
+  "product": {
+    "$oid": "66685c2203b3b9b9c88eef8c"
+  },
+  "order": {
+    "$oid": "6675b98762ddb8f95f31b68d"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6675b98762ddb8f95f31b690"
+  },
+  "name": "ayam geprek",
+  "price": 11000,
+  "qty": 1,
+  "product": {
+    "$oid": "66685c6a03b3b9b9c88eef99"
+  },
+  "order": {
+    "$oid": "6675b98762ddb8f95f31b68d"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6675b98762ddb8f95f31b691"
+  },
+  "name": "Ikan mas goreng ",
+  "price": 17000,
+  "qty": 1,
+  "product": {
+    "$oid": "6674cf6e7c2793c4f292bbc7"
+  },
+  "order": {
+    "$oid": "6675b98762ddb8f95f31b68d"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6675b98762ddb8f95f31b692"
+  },
+  "name": "Ikan nilla goreng ",
+  "price": 13000,
+  "qty": 1,
+  "product": {
+    "$oid": "6674cffb7c2793c4f292bbcc"
+  },
+  "order": {
+    "$oid": "6675b98762ddb8f95f31b68d"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6676200af41ff2f2ae463bf1"
+  },
+  "name": "ayam geprek",
+  "price": 11000,
+  "qty": 2,
+  "product": {
+    "$oid": "66685c6a03b3b9b9c88eef99"
+  },
+  "order": {
+    "$oid": "6676200af41ff2f2ae463bef"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6676200af41ff2f2ae463bf2"
+  },
+  "name": " teh manis panas",
+  "price": 5000,
+  "qty": 1,
+  "product": {
+    "$oid": "6669156a675a3de6d1d2cc8c"
+  },
+  "order": {
+    "$oid": "6676200af41ff2f2ae463bef"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6676200af41ff2f2ae463bf3"
+  },
+  "name": "ayam penyet",
+  "price": 13000,
+  "qty": 1,
+  "product": {
+    "$oid": "66685c2203b3b9b9c88eef8c"
+  },
+  "order": {
+    "$oid": "6676200af41ff2f2ae463bef"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6676200af41ff2f2ae463bf4"
+  },
+  "name": "roti coklat",
+  "price": 6000,
+  "qty": 3,
+  "product": {
+    "$oid": "6674dc1eff9b8a99e04c4d5f"
+  },
+  "order": {
+    "$oid": "6676200af41ff2f2ae463bef"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6676200af41ff2f2ae463bf5"
+  },
+  "name": "roti bakar",
+  "price": 8000,
+  "qty": 3,
+  "product": {
+    "$oid": "6674dc7fff9b8a99e04c4d70"
+  },
+  "order": {
+    "$oid": "6676200af41ff2f2ae463bef"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66762718f8dedbd1203e5286"
+  },
+  "name": "ayam penyet",
+  "price": 13000,
+  "qty": 1,
+  "product": {
+    "$oid": "66685c2203b3b9b9c88eef8c"
+  },
+  "order": {
+    "$oid": "66762718f8dedbd1203e5284"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66762718f8dedbd1203e5287"
+  },
+  "name": "ayam bakar",
+  "price": 15000,
+  "qty": 1,
+  "product": {
+    "$oid": "66685b1203b3b9b9c88eef7f"
+  },
+  "order": {
+    "$oid": "66762718f8dedbd1203e5284"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66762718f8dedbd1203e5288"
+  },
+  "name": "ayam geprek",
+  "price": 11000,
+  "qty": 1,
+  "product": {
+    "$oid": "66685c6a03b3b9b9c88eef99"
+  },
+  "order": {
+    "$oid": "66762718f8dedbd1203e5284"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66762718f8dedbd1203e5289"
+  },
+  "name": "kopi panas",
+  "price": 4000,
+  "qty": 1,
+  "product": {
+    "$oid": "666915f3675a3de6d1d2cc99"
+  },
+  "order": {
+    "$oid": "66762718f8dedbd1203e5284"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66762718f8dedbd1203e528a"
+  },
+  "name": "Coklat panas",
+  "price": 6000,
+  "qty": 1,
+  "product": {
+    "$oid": "6674cdfe7c2793c4f292bbba"
+  },
+  "order": {
+    "$oid": "66762718f8dedbd1203e5284"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66762718f8dedbd1203e528b"
+  },
+  "name": "roti bakar",
+  "price": 8000,
+  "qty": 1,
+  "product": {
+    "$oid": "6674dc7fff9b8a99e04c4d70"
+  },
+  "order": {
+    "$oid": "66762718f8dedbd1203e5284"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66762718f8dedbd1203e528c"
+  },
+  "name": "roti coklat",
+  "price": 6000,
+  "qty": 1,
+  "product": {
+    "$oid": "6674dc1eff9b8a99e04c4d5f"
+  },
+  "order": {
+    "$oid": "66762718f8dedbd1203e5284"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66762718f8dedbd1203e528d"
+  },
+  "name": "Ikan mas goreng ",
+  "price": 17000,
+  "qty": 1,
+  "product": {
+    "$oid": "6674cf6e7c2793c4f292bbc7"
+  },
+  "order": {
+    "$oid": "66762718f8dedbd1203e5284"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66762718f8dedbd1203e528e"
+  },
+  "name": "Ikan nilla goreng ",
+  "price": 13000,
+  "qty": 1,
+  "product": {
+    "$oid": "6674cffb7c2793c4f292bbcc"
+  },
+  "order": {
+    "$oid": "66762718f8dedbd1203e5284"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66762758f8dedbd1203e5387"
+  },
+  "name": "ayam geprek",
+  "price": 11000,
+  "qty": 1,
+  "product": {
+    "$oid": "66685c6a03b3b9b9c88eef99"
+  },
+  "order": {
+    "$oid": "66762758f8dedbd1203e5385"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66762758f8dedbd1203e5388"
+  },
+  "name": "ayam penyet",
+  "price": 13000,
+  "qty": 2,
+  "product": {
+    "$oid": "66685c2203b3b9b9c88eef8c"
+  },
+  "order": {
+    "$oid": "66762758f8dedbd1203e5385"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6676276df8dedbd1203e5416"
+  },
+  "name": "ayam penyet",
+  "price": 13000,
+  "qty": 2,
+  "product": {
+    "$oid": "66685c2203b3b9b9c88eef8c"
+  },
+  "order": {
+    "$oid": "6676276df8dedbd1203e5414"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6676276df8dedbd1203e5417"
+  },
+  "name": "ayam geprek",
+  "price": 11000,
+  "qty": 2,
+  "product": {
+    "$oid": "66685c6a03b3b9b9c88eef99"
+  },
+  "order": {
+    "$oid": "6676276df8dedbd1203e5414"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667629071cfcc44d4972aab5"
+  },
+  "name": "ayam geprek",
+  "price": 11000,
+  "qty": 1,
+  "product": {
+    "$oid": "66685c6a03b3b9b9c88eef99"
+  },
+  "order": {
+    "$oid": "667629071cfcc44d4972aab3"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667629071cfcc44d4972aab6"
+  },
+  "name": "Coklat panas",
+  "price": 6000,
+  "qty": 2,
+  "product": {
+    "$oid": "6674cdfe7c2793c4f292bbba"
+  },
+  "order": {
+    "$oid": "667629071cfcc44d4972aab3"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667629071cfcc44d4972aab7"
+  },
+  "name": "roti bakar",
+  "price": 8000,
+  "qty": 2,
+  "product": {
+    "$oid": "6674dc7fff9b8a99e04c4d70"
+  },
+  "order": {
+    "$oid": "667629071cfcc44d4972aab3"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667629071cfcc44d4972aab8"
+  },
+  "name": "Ikan nilla goreng ",
+  "price": 13000,
+  "qty": 2,
+  "product": {
+    "$oid": "6674cffb7c2793c4f292bbcc"
+  },
+  "order": {
+    "$oid": "667629071cfcc44d4972aab3"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66762c331cfcc44d4972ae02"
+  },
+  "name": "Ikan lele",
+  "price": 11000,
+  "qty": 1,
+  "product": {
+    "$oid": "6674cee97c2793c4f292bbc2"
+  },
+  "order": {
+    "$oid": "66762c331cfcc44d4972ae00"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66762c331cfcc44d4972ae03"
+  },
+  "name": "Ikan mas goreng ",
+  "price": 17000,
+  "qty": 1,
+  "product": {
+    "$oid": "6674cf6e7c2793c4f292bbc7"
+  },
+  "order": {
+    "$oid": "66762c331cfcc44d4972ae00"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66762c331cfcc44d4972ae04"
+  },
+  "name": "ikan mujair",
+  "price": 15000,
+  "qty": 1,
+  "product": {
+    "$oid": "6674d5767c2793c4f292bcaa"
+  },
+  "order": {
+    "$oid": "66762c331cfcc44d4972ae00"
+  },
+  "__v": 0
+}]

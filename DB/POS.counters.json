@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "66632ed6cd6f359664682b7d"
+  },
+  "reference_value": null,
+  "id": "customer_id",
+  "seq": 8
+},
+{
+  "_id": {
+    "$oid": "66718a6d5854acd038ce05b8"
+  },
+  "id": "order_number",
+  "reference_value": null,
+  "seq": 18
+}]

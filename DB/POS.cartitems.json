@@ -1,0 +1,96 @@
+[{
+  "_id": {
+    "$oid": "66762948c227c2ae6c62ca41"
+  },
+  "product": {
+    "$oid": "66685c2203b3b9b9c88eef8c"
+  },
+  "user": {
+    "$oid": "667440a7913a693c55780b65"
+  },
+  "__v": 0,
+  "image_url": "c62a40846a07230946f6d8573b91599b.jpg",
+  "name": "ayam penyet",
+  "price": 13000,
+  "qty": 3
+},
+{
+  "_id": {
+    "$oid": "66762948c227c2ae6c62ca46"
+  },
+  "product": {
+    "$oid": "66685c6a03b3b9b9c88eef99"
+  },
+  "user": {
+    "$oid": "667440a7913a693c55780b65"
+  },
+  "__v": 0,
+  "image_url": "efe987844a2b4aef427934dfa190096a.jpg",
+  "name": "ayam geprek",
+  "price": 11000,
+  "qty": 3
+},
+{
+  "_id": {
+    "$oid": "66762c77c227c2ae6c62cfbc"
+  },
+  "product": {
+    "$oid": "66685b1203b3b9b9c88eef7f"
+  },
+  "user": {
+    "$oid": "666bad7caeef1b7856d82505"
+  },
+  "__v": 0,
+  "image_url": "0c5a37e2e47db99d024e218327ed16c3.jpg",
+  "name": "ayam bakar",
+  "price": 15000,
+  "qty": 2
+},
+{
+  "_id": {
+    "$oid": "66762c78c227c2ae6c62cfc3"
+  },
+  "product": {
+    "$oid": "66685c2203b3b9b9c88eef8c"
+  },
+  "user": {
+    "$oid": "666bad7caeef1b7856d82505"
+  },
+  "__v": 0,
+  "image_url": "c62a40846a07230946f6d8573b91599b.jpg",
+  "name": "ayam penyet",
+  "price": 13000,
+  "qty": 2
+},
+{
+  "_id": {
+    "$oid": "66762c78c227c2ae6c62cfca"
+  },
+  "user": {
+    "$oid": "666bad7caeef1b7856d82505"
+  },
+  "product": {
+    "$oid": "66685c6a03b3b9b9c88eef99"
+  },
+  "__v": 0,
+  "image_url": "efe987844a2b4aef427934dfa190096a.jpg",
+  "name": "ayam geprek",
+  "price": 11000,
+  "qty": 2
+},
+{
+  "_id": {
+    "$oid": "66762ca9c227c2ae6c62d033"
+  },
+  "user": {
+    "$oid": "667440a7913a693c55780b65"
+  },
+  "product": {
+    "$oid": "6674d5767c2793c4f292bcaa"
+  },
+  "__v": 0,
+  "image_url": "2e29bfccf3db48e6ff4524e2216f1224.jpg",
+  "name": "ikan mujair",
+  "price": 15000,
+  "qty": 3
+}]

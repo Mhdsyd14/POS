@@ -1,0 +1,384 @@
+[{
+  "_id": {
+    "$oid": "66685b1203b3b9b9c88eef7f"
+  },
+  "name": "ayam bakar",
+  "description": "Ayam bakar adalah hidangan khas Indonesia yang sangat populer dan digemari oleh banyak orang. Hidangan ini terdiri dari potongan ayam yang dibumbui dengan berbagai rempah-rempah khas, kemudian dipanggang atau dibakar hingga matang sempurna. Berikut adalah deskripsi lebih rinci tentang ayam bakar",
+  "price": 15000,
+  "image_url": "0c5a37e2e47db99d024e218327ed16c3.jpg",
+  "category": {
+    "$oid": "6667e187a69da1f447206033"
+  },
+  "tags": [
+    {
+      "$oid": "66680adbe703c6775468c712"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-11T14:11:30.549Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-11T14:11:30.549Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66685c2203b3b9b9c88eef8c"
+  },
+  "name": "ayam penyet",
+  "description": "Ayam penyet adalah hidangan khas Indonesia yang sangat populer dan menggugah selera. Hidangan ini terdiri dari ayam goreng yang dihaluskan atau dipenyetkan (dipukul-pukul) bersama dengan sambal pedas. Berikut adalah deskripsi lebih rinci tentang ayam penyet",
+  "price": 13000,
+  "image_url": "c62a40846a07230946f6d8573b91599b.jpg",
+  "category": {
+    "$oid": "6667e187a69da1f447206033"
+  },
+  "tags": [
+    {
+      "$oid": "66680adbe703c6775468c712"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-11T14:16:02.298Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-11T14:16:02.298Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66685c6a03b3b9b9c88eef99"
+  },
+  "name": "ayam geprek",
+  "description": "Ayam geprek adalah hidangan kuliner Indonesia yang sangat populer, terutama di kalangan pencinta makanan pedas. Hidangan ini terdiri dari ayam goreng yang dihancurkan atau digeprek dengan sambal pedas, menciptakan kombinasi rasa gurih dan pedas yang khas. Berikut adalah deskripsi lebih rinci tentang ayam geprek",
+  "price": 11000,
+  "image_url": "efe987844a2b4aef427934dfa190096a.jpg",
+  "category": {
+    "$oid": "6667e187a69da1f447206033"
+  },
+  "tags": [
+    {
+      "$oid": "66680adbe703c6775468c712"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-11T14:17:14.960Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-11T14:17:14.960Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6669156a675a3de6d1d2cc8c"
+  },
+  "name": " teh manis panas",
+  "description": "Teh Manis Panas adalah minuman hangat yang sangat populer di Indonesia dan berbagai belahan dunia. Minuman ini sederhana namun memiliki rasa yang kaya dan menenangkan. Teh manis panas sering dinikmati pada pagi hari untuk memulai hari atau di sore hari sebagai teman bersantai. Berikut adalah deskripsi lebih rinci tentang teh manis panas",
+  "price": 5000,
+  "image_url": "1975ac8059f0a5f8bc29f1a87afa7424.jpeg",
+  "category": {
+    "$oid": "6667e18da69da1f447206036"
+  },
+  "tags": [
+    {
+      "$oid": "66691344675a3de6d1d2cc33"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-12T03:26:34.550Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-12T03:26:34.550Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "666915f3675a3de6d1d2cc99"
+  },
+  "name": "kopi panas",
+  "description": "Kopi adalah minuman yang sangat populer di seluruh dunia, dikenal karena cita rasanya yang kaya dan aromanya yang memikat. Diperoleh dari biji kopi yang diproses dan diseduh, kopi hadir dalam berbagai jenis dan variasi yang menawarkan pengalaman rasa yang unik. Berikut adalah deskripsi lebih rinci tentang kopi",
+  "price": 4000,
+  "image_url": "c6070529d7c3471ed2644b2b1a5d06d2.png",
+  "category": {
+    "$oid": "6667e18da69da1f447206036"
+  },
+  "tags": [
+    {
+      "$oid": "66691344675a3de6d1d2cc33"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-12T03:28:51.511Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-12T03:28:51.511Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674cdfe7c2793c4f292bbba"
+  },
+  "name": "Coklat panas",
+  "description": "Coklat panas adalah minuman hangat yang terbuat dari coklat atau bubuk kakao, susu atau air, dan biasanya gula. Rasanya manis dengan cita rasa coklat yang kaya dan creamy, terutama jika menggunakan coklat murni atau susu. Minuman ini sering dinikmati pada hari-hari dingin atau sebagai minuman penutup",
+  "price": 6000,
+  "image_url": "b40ea3e7217514e384d3de386243aa6f.jpg",
+  "category": {
+    "$oid": "6667e18da69da1f447206036"
+  },
+  "tags": [
+    {
+      "$oid": "66691344675a3de6d1d2cc33"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-21T00:49:02.267Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-21T00:49:02.267Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674cee97c2793c4f292bbc2"
+  },
+  "name": "Ikan lele",
+  "description": "Rasa lele goreng kaya akan kelezatan dengan perpaduan rasa gurih dari bumbu dan rasa alami ikan yang lembut. Bumbu yang digunakan biasanya berupa campuran bawang putih, garam, kunyit, dan ketumbar, yang memberikan aroma harum dan cita rasa yang kuat",
+  "price": 11000,
+  "image_url": "db21c2932486622ed31de1b2dd2f9ded.jpg",
+  "category": {
+    "$oid": "6667e187a69da1f447206033"
+  },
+  "tags": [
+    {
+      "$oid": "6674ce527c2793c4f292bbbd"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-21T00:52:57.520Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-21T00:52:57.520Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674cf6e7c2793c4f292bbc7"
+  },
+  "name": "Ikan mas goreng ",
+  "description": "Rasa ikan mas goreng sangat gurih dan kaya, dengan bumbu yang meresap sempurna. Bumbu yang digunakan biasanya terdiri dari bawang putih, garam, kunyit, ketumbar, dan jeruk nipis yang memberikan aroma harum dan cita rasa yang menggugah selera",
+  "price": 17000,
+  "image_url": "81b9abecc9e6d31ef37b36c41e544739.jpg",
+  "category": {
+    "$oid": "6667e187a69da1f447206033"
+  },
+  "tags": [
+    {
+      "$oid": "6674ce527c2793c4f292bbbd"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-21T00:55:10.518Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-21T00:55:10.518Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674cffb7c2793c4f292bbcc"
+  },
+  "name": "Ikan nilla goreng ",
+  "description": "Rasa ikan nila goreng sangat gurih dan kaya, dengan bumbu yang meresap sempurna. Bumbu yang digunakan biasanya terdiri dari campuran bawang putih, garam, kunyit, ketumbar, dan jeruk nipis, yang memberikan aroma harum dan cita rasa yang menggugah selera. Terkadang, bumbu tambahan seperti lengkuas, jahe, dan serai juga digunakan untuk memperkaya rasa",
+  "price": 13000,
+  "image_url": "760c5a6a3fefd3b65495bdc48d97337b.jpg",
+  "category": {
+    "$oid": "6667e187a69da1f447206033"
+  },
+  "tags": [
+    {
+      "$oid": "6674ce527c2793c4f292bbbd"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-21T00:57:31.238Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-21T00:57:31.238Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674d5767c2793c4f292bcaa"
+  },
+  "name": "ikan mujair",
+  "description": "Rasa ikan mujair goreng sangat gurih dengan bumbu yang meresap sempurna. Bumbu yang digunakan biasanya terdiri dari bawang putih, garam, kunyit, ketumbar, dan jeruk nipis, memberikan aroma harum dan cita rasa yang kuat. Kombinasi rasa bumbu ini dengan daging ikan yang lembut membuatnya sangat nikmat",
+  "price": 15000,
+  "image_url": "2e29bfccf3db48e6ff4524e2216f1224.jpg",
+  "category": {
+    "$oid": "6667e187a69da1f447206033"
+  },
+  "tags": [
+    {
+      "$oid": "6674ce527c2793c4f292bbbd"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-21T01:20:54.398Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-21T01:20:54.398Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674d6c86ea4dcd991e2d626"
+  },
+  "name": "es kopi susu ",
+  "description": "Rasa es kopi susu merupakan perpaduan yang harmonis antara rasa kopi yang khas, manisnya gula, dan kelembutan susu. Kopi yang digunakan biasanya memiliki rasa yang kaya dan kuat, yang dipadukan dengan susu yang memberikan kelembutan dan kelezatan tersendiri. Tingkat manis dapat disesuaikan sesuai dengan selera, dengan tambahan gula atau sirup manis jika diinginkan",
+  "price": 13000,
+  "image_url": "9944ae99e4e297804e36767858842bf7.jpg",
+  "category": {
+    "$oid": "6667e18da69da1f447206036"
+  },
+  "tags": [
+    {
+      "$oid": "6674d67c6ea4dcd991e2d621"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-21T01:26:32.197Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-21T01:26:32.197Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674d7416ea4dcd991e2d637"
+  },
+  "name": "es teh manis solo",
+  "description": "Rasa Es Teh Manis Solo adalah kombinasi yang pas antara rasa teh yang khas, manisnya gula, dan kesegaran dari es. Teh yang digunakan biasanya memiliki cita rasa yang kuat namun tidak pahit, dengan kelembutan manis dari gula yang menambah kenikmatan minuman ini",
+  "price": 5000,
+  "image_url": "11f8b191677da423e7a98d84e5a1a901.jpeg",
+  "category": {
+    "$oid": "6667e18da69da1f447206036"
+  },
+  "tags": [
+    {
+      "$oid": "6674d67c6ea4dcd991e2d621"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-21T01:28:33.974Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-21T01:28:33.974Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674d900ff9b8a99e04c4cbb"
+  },
+  "name": "es jeruk",
+  "description": "Rasa es jeruk adalah kombinasi yang segar antara rasa asam dan manis dari perasan jeruk yang segar dengan gula yang ditambahkan. Jeruk yang digunakan biasanya memberikan aroma yang khas dan rasa yang menyegarkan. Tingkat manis dapat disesuaikan dengan selera, tergantung pada jumlah gula yang ditambahkan",
+  "price": 4000,
+  "image_url": "d33f845d3269639e779718621d25f431.jpg",
+  "category": {
+    "$oid": "6667e18da69da1f447206036"
+  },
+  "tags": [
+    {
+      "$oid": "6674d67c6ea4dcd991e2d621"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-21T01:36:00.586Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-21T01:36:00.586Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674d969ff9b8a99e04c4ccc"
+  },
+  "name": "es buah",
+  "description": "Rasa es buah adalah kombinasi yang segar antara rasa manis dan asam dari berbagai buah-buahan yang digunakan. Buah-buahan yang umum digunakan antara lain melon, semangka, nanas, jeruk, anggur, kiwi, dan lainnya. Sirup atau jus buah yang ditambahkan memberikan tambahan manis dan aroma buah yang khas",
+  "price": 10000,
+  "image_url": "54ad1131550d5e78cd5677b088f16b0e.png",
+  "category": {
+    "$oid": "6667e18da69da1f447206036"
+  },
+  "tags": [
+    {
+      "$oid": "6674d67c6ea4dcd991e2d621"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-21T01:37:45.493Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-21T01:37:45.493Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674dc1eff9b8a99e04c4d5f"
+  },
+  "name": "roti coklat",
+  "description": "Rasa roti sobek coklat adalah kombinasi antara rasa gurih dari roti dengan manisnya coklat. Coklat bisa memberikan variasi rasa dari manis hingga sedikit pahit tergantung pada jenis coklat yang digunakan",
+  "price": 6000,
+  "image_url": "0b94a9ac24484c32e63b51d56b513349.jpg",
+  "category": {
+    "$oid": "6674dc06ff9b8a99e04c4d4b"
+  },
+  "tags": [
+    {
+      "$oid": "6674dc17ff9b8a99e04c4d5a"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-21T01:49:18.699Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-21T01:49:18.699Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6674dc7fff9b8a99e04c4d70"
+  },
+  "name": "roti bakar",
+  "description": "Rasa roti bakar adalah kombinasi antara rasa gurih dan karamelisasi yang dihasilkan dari proses pemanggangan. Roti yang dipanggang memberikan aroma yang harum dan rasa yang renyah ketika digigit",
+  "price": 8000,
+  "image_url": "7ea7f8d184f2091861a8cc9eafdf4e34.jpeg",
+  "category": {
+    "$oid": "6674dc06ff9b8a99e04c4d4b"
+  },
+  "tags": [
+    {
+      "$oid": "6674dc17ff9b8a99e04c4d5a"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-21T01:50:55.464Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-21T01:50:55.464Z"
+  },
+  "__v": 0
+}]
